@@ -26,6 +26,16 @@
 	}else{
 		console.info("Array Defined");
 	}
+
+	// Contoh dalam objek
+	const person = {};
+	if(person.name==undefined){
+		console.info("Contoh Objek Undefined")
+		console.info("Undefined");
+	}else{
+		console.info("Contoh Objek Defined")
+		console.info("Defined");
+	}
    
 </script>
 </body>
