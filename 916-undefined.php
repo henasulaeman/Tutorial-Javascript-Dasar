@@ -12,7 +12,7 @@
     // contoh
 	
 	let name;
-	if(name==undefined){
+	if(name===undefined){
 		alert("Undefined");
 	}else{
 		alert("Defined");
@@ -21,7 +21,7 @@
 	// Contoh dalam array
 
 	const names = ["jupri","alexander"];
-	if(names[2]==undefined){
+	if(names[2]===undefined){
 		console.info("Array Undefined");
 	}else{
 		console.info("Array Defined");
